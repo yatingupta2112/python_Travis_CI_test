@@ -1,21 +1,13 @@
 language: python
-# python versions to use during the tests
 python:
-    - "2.7"
-    - "3.4"
+  - "3.5"
 # command to install dependencies
 install:
-    - pip install -r requirements.txt
-
-env:CODECOV_TOKEN="f97c5769-1599-451c-8a36-7bcdad32507d"
-
-script: SimplePalindrom.py
-
+  - pip install -r requirements.txt
 # command to run tests
 script:
-    - py.test --cov-report term-missing --cov=maths
-    - py.test --doctest-modules --cov=maths3 --cov-report term-missing
-#    - py.test
+  - export PYTHONPATH=$PYTHONPATH:$(pwd)
+  - python palindrom-test.py
 branches:
   only:
    - master
