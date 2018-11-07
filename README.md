@@ -29,6 +29,7 @@ For Code review satus --> codacy badge in project settings
 
 ### Additional Resources that might be useful: 
 * codecov documentation https://docs.codecov.io/docs and git -> https://github.com/codecov/example-python 
-* https://microsoft.github.io/PartsUnlimitedMRP/pandp/200.1x-PandP-PythonCI.html 
+* Using unit testing with python https://microsoft.github.io/PartsUnlimitedMRP/pandp/200.1x-PandP-PythonCI.html 
+* Travis and python https://docs.travis-ci.com/user/languages/python/ 
 * codeacy - code review https://support.codacy.com/hc/en-us 
 * unittest https://docs.python.org/3/library/unittest.html & pytest https://docs.pytest.org/en/latest/ 
