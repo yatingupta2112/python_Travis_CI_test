@@ -1,11 +1,29 @@
 language: python
+# python versions to use during the tests
 python:
-  - "2.6"
-  - "2.7"
-  - "3.2"
-  - "3.3"
+    - "2.7"
+    - "3.4"
 # command to install dependencies
+install:
+    - pip install -r requirements.txt
+
+env:CODECOV_TOKEN="f97c5769-1599-451c-8a36-7bcdad32507d"
+
 script: SimplePalindrom.py
+
+# command to run tests
+script:
+    - py.test --cov-report term-missing --cov=maths
+    - py.test --doctest-modules --cov=maths3 --cov-report term-missing
+#    - py.test
 branches:
   only:
-    - master
+   - master
+after_success:
+    - coveralls
+notifications:
+  email:
+    recipients:
+   #   - prithvisekhp@xxx.com
+    on_success: always
+    on_failure: always
