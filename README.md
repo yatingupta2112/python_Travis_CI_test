@@ -19,18 +19,15 @@ after_success:
 6. Optional: Integrating code review codacy 
 login in codacy with git and enable reviewing for the repository and also check the dashboard
 
-For Build Status code template below: 
-### Build Status
 
-[![Build Status](https://travis-ci.org/prithvisekhar/python_Travis_CI_test.svg?branch=master)](https://travis-ci.org/prithvisekhar/python_Travis_CI_test)
+### Build Status [![Build Status](https://travis-ci.org/prithvisekhar/python_Travis_CI_test.svg?branch=master)](https://travis-ci.org/prithvisekhar/python_Travis_CI_test)
 
+### Coverage Status [![codecov Status](https://codecov.io/gh/prithvisekhar/python_Travis_CI_test/branch/master/graph/badge.svg)](https://codecov.io/gh/prithvisekhar/python_Travis_CI_test)
 For Coverage Status code template below: code available in Codecov --> settings--> badge
-[![codecov Status](https://codecov.io/gh/prithvisekhar/python_Travis_CI_test/branch/master/graph/badge.svg)](https://codecov.io/gh/prithvisekhar/python_Travis_CI_test)
-
+### Code Review Status [![Codacy Badge](https://api.codacy.com/project/badge/Grade/733e3759ac334457b30d75329cb2b6a7)](https://www.codacy.com/app/prithvisekhar/python_Travis_CI_test?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prithvisekhar/python_Travis_CI_test&amp;utm_campaign=Badge_Grade)
 For Code review satus --> codacy badge in project settings
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/733e3759ac334457b30d75329cb2b6a7)](https://www.codacy.com/app/prithvisekhar/python_Travis_CI_test?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prithvisekhar/python_Travis_CI_test&amp;utm_campaign=Badge_Grade)
 
-Additional Resources that might be useful: 
+### Additional Resources that might be useful: 
 * codecov documentation https://docs.codecov.io/docs and git -> https://github.com/codecov/example-python 
 * https://microsoft.github.io/PartsUnlimitedMRP/pandp/200.1x-PandP-PythonCI.html 
 * codeacy - code review https://support.codacy.com/hc/en-us 
