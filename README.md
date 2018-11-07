@@ -6,3 +6,7 @@ Steps:
 2. linked with travis and enabled CI run
 3. In the git repo added .travis.yml
 
+For Build Status code template below: 
+### Build Status
+
+[![Build Status](https://travis-ci.org/prithvisekhar/python_Travis_CI_test.svg?branch=master)](https://travis-ci.org/prithvisekhar/python_Travis_CI_test)
