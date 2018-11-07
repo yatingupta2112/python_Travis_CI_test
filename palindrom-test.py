@@ -1,4 +1,5 @@
-import unittest from palindromCheck import palindromCheck
+import unittest 
+from palindromCheck import palindromCheck
 
 class MyTest(unittest.TestCase):
     def test_my_function(self):
