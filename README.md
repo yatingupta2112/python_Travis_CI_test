@@ -9,12 +9,12 @@ Steps:
 
 5. Optional: Integrating with codecov.io add the below in the respective sections 
 login in codecov with git and you will be able to see the dashboard
-install: 
-- pip install codecov
-script:
-  - coverage run tests.py
-after_success:
-    - codecov
+#### install: 
+#### - pip install codecov
+#### script:
+#### - coverage run tests.py
+#### after_success:
+####   - codecov
 
 6. Optional: Integrating code review codacy 
 login in codacy with git and enable reviewing for the repository and also check the dashboard
