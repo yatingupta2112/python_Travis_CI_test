@@ -7,7 +7,8 @@ Steps:
 3. In the git repo added .travis.yml
 4. Added the test for unit testing 
 
-Optional: Integrating with codecov.io add the below in the respective sections 
+5. Optional: Integrating with codecov.io add the below in the respective sections 
+login in codecov with git and you will be able to see the dashboard
 install: 
 - pip install codecov
 script:
@@ -15,6 +16,8 @@ script:
 after_success:
     - codecov
 
+6. Optional: Integrating code review codacy 
+login in codacy with git and enable reviewing for the repository and also check the dashboard
 
 For Build Status code template below: 
 ### Build Status
