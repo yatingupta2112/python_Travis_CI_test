@@ -10,7 +10,7 @@ install:
 script:
   - export PYTHONPATH=$PYTHONPATH:$(pwd)
   - python palindrom-test.py
-  - coverage run tests.py
+  - coverage run palindrom-test.py
 branches:
   only:
    - master
