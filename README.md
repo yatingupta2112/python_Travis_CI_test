@@ -8,12 +8,8 @@ test project for python project integration with travis
 4.Added the test for unit testing 
 5.Optional: Integrating with codecov.io add the below in the respective sections 
 login in codecov with git and you will be able to see the dashboard
-#### install: 
-##### - pip install codecov
-#### script:
-##### - coverage run tests.py
-#### after_success:
-#####   - codecov
+#### Check install:, script:, after_success: Sections in Travis.xml
+
 6.Optional: Integrating code review codacy 
 login in codacy with git and enable reviewing for the repository and also check the dashboard
 
