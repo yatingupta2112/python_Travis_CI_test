@@ -25,4 +25,4 @@ For Code review satus --> codacy badge in project settings
 *   Using unit testing with python [[https://microsoft.github.io/PartsUnlimitedMRP/pandp/200.1x-PandP-PythonCI.html](https://microsoft.github.io/PartsUnlimitedMRP/pandp/200.1x-PandP-PythonCI.html)]
 *   Travis and python [[https://docs.travis-ci.com/user/languages/python/](https://docs.travis-ci.com/user/languages/python/)]
 *   codeacy - code review [[https://support.codacy.com/hc/en-us](https://support.codacy.com/hc/en-us)]
-*   unittest [[https://docs.python.org/3/library/unittest.html](https://docs.python.org/3/library/unittest.html)] & pytest [[https://docs.pytest.org/en/latest/] (https://docs.pytest.org/en/latest/)]
+*   unittest [[https://docs.python.org/3/library/unittest.html](https://docs.python.org/3/library/unittest.html)] & pytest [[https://docs.pytest.org/en/latest/](https://docs.pytest.org/en/latest/)]
