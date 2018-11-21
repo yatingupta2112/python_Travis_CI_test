@@ -1,4 +1,4 @@
-import unittest 
+import unittest
 from palindromCheck import palindromCheck
 # import palindromeCheck
 
