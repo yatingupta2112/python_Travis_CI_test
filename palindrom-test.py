@@ -10,7 +10,5 @@ class MyTest(unittest.TestCase):
         self.assertEqual(palindromCheck('121'), 1)
        
         
-        
-        
 if __name__ == '__main__':
-    unittest.main()   
+    unittest.main()
