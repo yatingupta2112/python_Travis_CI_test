@@ -24,6 +24,5 @@ def palindromCheck(inputUser):
         return 1
     else:
         print("It's not a palindrome\n")
-        return 0
-    
+        return 0 
 #assert palindromCheck('aba') == 1
