@@ -8,7 +8,6 @@ class MyTest(unittest.TestCase):
         self.assertEqual(palindromCheck('aba'), 1)
         self.assertEqual(palindromCheck('123'), 0)
         self.assertEqual(palindromCheck('121'), 1)
-       
         
 if __name__ == '__main__':
     unittest.main()
