@@ -1,12 +1,12 @@
 # python_Travis_CI_test
 test project for python project integration with travis
 
-##Steps: 
-1.Created a repository on git 
-2.linked with travis and enabled CI run
-3.In the git repo added .travis.yml
-4.Added the test for unit testing 
-5.Optional: Integrating with codecov.io add the below in the respective sections 
+## Steps: 
+### 1.Created a repository on git 
+### 2.linked with travis and enabled CI run
+### 3.In the git repo added .travis.yml
+### 4.Added the test for unit testing 
+### 5.Optional: Integrating with codecov.io add the below in the respective sections 
 login in codecov with git and you will be able to see the dashboard
 #### Check install:, script:, after_success: Sections in Travis.xml
 
